@@ -1,5 +1,6 @@
 {
   "@context": {
+    "@language": "en-us",
     "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
     "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
     "hashAlgorithm": "CIP100:hashAlgorithm",
@@ -50,10 +51,8 @@
       }
     }
   },
-  "authors": [],
   "hashAlgorithm": "blake2b-256",
   "body": {
-    "doNotList": false,
     "givenName": "Jakub_Szyca",
     "motivations": "I'm driven by the desire to change the world through decentralization, creating a fairer society where power is in the hands of the people. I believe that by eliminating centralized control, we can create a more just and inclusive world for billions while eliminating the influence of dictators and populists. My passion lies in ensuring that everyone has the opportunity to participate in and benefit from this new system.",
     "objectives": "My objective is to contribute to the creation of a global decentralized network where everyone, regardless of race, culture, beliefs, background, or country of origin, has equitable access to basic human rights and needs. By harnessing the collective intelligence and will of the community, I strive to empower individuals to control their identity and finances, free from centralized gatekeepers, and contribute to making Cardano the global operating system for all.",
@@ -62,13 +61,13 @@
     "references": [
       {
         "@type": "Link",
-        "label": "X account",
-        "uri": "https://x.com/jakub_szyca"
+        "label": "My DRep GitHub repository",
+        "uri": "https://github.com/jakubszyca/Cardano-Drep"
       },
       {
         "@type": "Link",
-        "label": "Personal website",
-        "uri": "https://jakubszyca.pl"
+        "label": "My vote history",
+        "uri": "https://github.com/jakubszyca/Cardano-Drep/tree/main/My%20votes"
       },
       {
         "@type": "Identity",
