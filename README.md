@@ -1,4 +1,4 @@
-# This is a repository with my DRep information and updates
+# My DRep information and vote updates
 DRep ID: **drep1ytee8ue66qdqkfquq5c9hld7trhxvqdra5plfhyuragcfsgrqen4n**
 
 ## My votes
