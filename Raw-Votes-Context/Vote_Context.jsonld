@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "body": {
+    "comment": "I voted YES for the first Cardano Constitution because I believe it marks a monumental step for the Cardano community in improving the livelihoods of people worldwide. This document serves as a guiding framework for our efforts to create a fairer, more just world for everyone.\n\nThe social and economic revolution sparked by cryptocurrencies began with Bitcoin. Now, Cardano carries that torch forward. By enabling full governance on Cardano, we have achieved something unprecedented in human history. The phrase echoed for centuries—\"Power to the people\"—has never been closer to its true meaning.\n\nIn my view, this constitution serves its purpose well, covering all the essential aspects of the Cardano Blockchain ecosystem. The tenets and guiderails it provides may not be perfect in everyone's eyes, but I believe they are more than sufficient to bootstrap Cardano governance. I’m sure we will build on top of those in the future to achieve an even better system.\n\nAt the same time, we must acknowledge those who have concerns about how this constitution was developed. While I believe it was created in the best way possible at the moment, we cannot ignore those who feel dissatisfied. It is crucial that we listen, collaborate, and strive for even better solutions in the future.\n\nLet’s embark on this wild governance journey and build something meaningful together!"
+  },
+  "hashAlgorithm": "blake2b-256"
+}
