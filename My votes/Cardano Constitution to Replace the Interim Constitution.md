@@ -1,4 +1,5 @@
 # Cardano Constitution to Replace the Interim Constitution
+## Voted -YES-
 ## Governance Action ID
 gov_action133jnaewfsq8x6v08ndd87l2yqryp63r30t2dkceacxx5cply5n7sqzlcyqf
 ## Vote TX
