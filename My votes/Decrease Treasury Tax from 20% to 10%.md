@@ -1,4 +1,5 @@
-# Cardano Constitution to Replace the Interim Constitution
+# Decrease Treasury Tax from 20% to 10%
+## Voted -NO-
 ## Governance Action ID
 gov_action1js2s9v92zpxg2rge0y3jt9zy626he2m67x9kx9phw4r942kvsn6sqfym0d7
 ## Vote TX
