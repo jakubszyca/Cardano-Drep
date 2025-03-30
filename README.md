@@ -2,7 +2,7 @@
 DRep ID: **drep1ytee8ue66qdqkfquq5c9hld7trhxvqdra5plfhyuragcfsgrqen4n**
 
 ## My votes
-You can find all my votes [here](https://github.com/jakubszyca/Cardano-Drep/tree/ebac4c15869c8040a4b68d4589f7d61f09980c9c/My%20votes)
+You can find all my votes [here](https://github.com/jakubszyca/Cardano-Drep/tree/main/My%20votes)
 ## My objectives
 My objective is to contribute to the creation of a global decentralized network where everyone, regardless of race, culture, beliefs, background, or country of origin, has equitable access to basic human rights and needs. By harnessing the collective intelligence and will of the community, I strive to empower individuals to control their identity and finances, free from centralized gatekeepers, and contribute to making Cardano the global operating system for all.
 ## My motivations
