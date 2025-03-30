@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "body": {
+    "comment": "I believe this roadmap focuses on key improvements that should be made to the Cardano blockchain, making it the primary roadmap for the foreseeable future. Scalability, fast transaction finality, and increased throughput are much-needed enhancements. Obviously, we need to achieve these without compromising our core values, such as decentralization, which this roadmap takes into account.\n\nWith Leios and the improvements leading up to it, I believe developers can achieve the goals set in this roadmap and effectively address the blockchain trilemma. Alongside Layer 2 solutions, partner chains, and developer-focused enhancements, Cardano should be well-positioned to thrive and attract a vast number of new users through its superior experience compared to other blockchains.\n\nInput Output and other developers working on different parts of the roadmap have already demonstrated their capabilities in the past, and I am confident they can deliver again. With new developers joining Cardano and growing interest in our blockchain ecosystem, these advancements are highly achievable, even though they are at the cutting edge of technology and have required years of research.\n\nI hope the majority of the roadmap can be completed this year, but I am glad it also looks ahead, focusing on the long-term growth of the ecosystem and ensuring Cardano's technological superiority for years to come—all while benefiting every community member."
+  },
+  "hashAlgorithm": "blake2b-256"
+}
